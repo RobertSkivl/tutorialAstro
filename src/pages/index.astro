@@ -2,8 +2,8 @@
 import Layout from '../layouts/Layout.astro';
 import Card from '../components/Card.astro';
 import Navigation from '../components/Navigation.astro';
+import Footer from '../components/Footer.astro';
 import '../styles/global.css';
-
 
 const pageTitle = "Learning of";
 
@@ -71,6 +71,7 @@ const student = false;
 				body="Come say hi to our amazing Discord community. ❤️"
 			/>
 		</ul>
+		<Footer />
 		<p>{operatingSystem}</p>
 		{student && <p>I am still in school.</p>}
 		<p>I have {quantity + 8} pairs of {footwear}</p>
